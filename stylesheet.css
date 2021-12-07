@@ -1,0 +1,22 @@
+body {
+    font-family: Ink Free;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+#btn1, #btn2, #btn3 {
+    font-family: Orbitron;
+    background-color: white;
+    padding: 10px;
+}
+
+h1 {
+    transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 10vmin;
+    margin: 0;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+  }
